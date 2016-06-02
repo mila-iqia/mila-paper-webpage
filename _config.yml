@@ -1,0 +1,12 @@
+# Setup
+title:        Paper Title
+tagline:      Author, Coauthor
+baseurl:      ""
+
+# About / contact
+author:
+  name:       Contact name
+  url:        contact webpage
+
+#Others
+markdown: kramdown
