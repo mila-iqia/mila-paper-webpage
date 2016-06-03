@@ -1,6 +1,6 @@
 # Webpage template for MILA-affiliated papers
 
-[Template live demo](https://vdumoulin.github.io/mila-paper-webpage)
+[Template live demo](https://mila-udem.github.io/mila-paper-webpage)
 
 # How to use
 
@@ -18,7 +18,7 @@ $ git rm -rf .
 Download and unzip the template into the repository:
 
 ``` bash
-$ wget https://github.com/vdumoulin/mila-paper-webpage/archive/master.zip
+$ wget https://github.com/mila-udem/mila-paper-webpage/archive/master.zip
 $ unzip master.zip
 $ mv mila-paper-webpage-master/* ./
 $ rm -r master.zip mila-paper-webpage-master
@@ -65,7 +65,7 @@ self-documented.
 
 ## Final step
 
-Once you're ready, edit `_config.yml` so that `baseurl` is `/repository-name`,
+Once you're ready, edit `_config.yml` so that `baseurl` is `"/repository-name"`,
 commit, and push to Github:
 
 ``` bash
